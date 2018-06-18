@@ -1,0 +1,27 @@
+{
+    "name": "crafted-systems/tilil-sms",
+    "description": "Tilil SMS API",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "author": {
+        "name": "Crafted Systems",
+        "email": "hello@crafted.co.ke"
+    },
+    "autoload": {
+        "psr-4": {
+            "CraftedSystems\\Tilil\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CraftedSystems\\Tilil\\TililSMSServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
